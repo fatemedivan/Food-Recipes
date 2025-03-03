@@ -1,0 +1,35 @@
+.recipe{
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    padding: 40px;
+    box-sizing: border-box;
+}
+.recipe ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+}
+.recipe li {
+    list-style: none;
+    margin-right: 10px;
+    color: #777;
+}
+.recipe li::after{
+    content: ',';
+}
+.recipe li:last-child::after{
+    content: '.';
+}
+.method{
+    text-align: left;
+    line-height: 1.5em;
+}
+.recipe.light{
+    background-color: #fff;
+}
+.recipe.light p, .recipe.light h2{
+    color: #000;
+}

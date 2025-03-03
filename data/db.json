@@ -1,0 +1,76 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "stew",
+      "ingredients": [
+        "1 carrot",
+        "1 leek",
+        "200g tofu",
+        "300ml veg stock"
+      ],
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a, laboriosam recusandae molestias provident nulla, nostrum repudiandae consequatur aut ullam neque ut voluptate libero obcaecati, natus aliquam! Voluptatibus corrupti fugiat dicta asperiores? Eligendi exercitationem placeat assumenda consequuntur iure sunt eveniet.",
+      "cookingtime": "45"
+    },
+    {
+      "id": "2",
+      "title": "pizza",
+      "ingredients": [
+        "1 carrot",
+        "1 leek",
+        "200g tofu",
+        "300ml veg stock"
+      ],
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a, laboriosam recusandae molestias provident nulla, nostrum repudiandae consequatur aut ullam neque ut voluptate libero obcaecati, natus aliquam! Voluptatibus corrupti fugiat dicta asperiores? Eligendi exercitationem placeat assumenda consequuntur iure sunt eveniet.",
+      "cookingtime": "25"
+    },
+    {
+      "id": "3",
+      "title": "pasta",
+      "ingredients": [
+        "1 carrot",
+        "1 leek",
+        "200g tofu",
+        "300ml veg stock"
+      ],
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a, laboriosam recusandae molestias provident nulla, nostrum repudiandae consequatur aut ullam neque ut voluptate libero obcaecati, natus aliquam! Voluptatibus corrupti fugiat dicta asperiores? Eligendi exercitationem placeat assumenda consequuntur iure sunt eveniet.",
+      "cookingtime": "40"
+    },
+    {
+      "id": "4",
+      "title": "veggie salad",
+      "ingredients": [
+        "1 carrot",
+        "1 leek",
+        "200g tofu",
+        "300ml veg stock"
+      ],
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a, laboriosam recusandae molestias provident nulla, nostrum repudiandae consequatur aut ullam neque ut voluptate libero obcaecati, natus aliquam! Voluptatibus corrupti fugiat dicta asperiores? Eligendi exercitationem placeat assumenda consequuntur iure sunt eveniet.",
+      "cookingtime": "5"
+    },
+    {
+      "id": "5",
+      "title": "omlet",
+      "ingredients": [
+        "eggs",
+        "tomato",
+        "butter",
+        "mushrooms"
+      ],
+      "method": "bfgddw ewqqas hjuytr vv",
+      "cookingtime": "10"
+    },
+    {
+      "id": "6",
+      "title": "ghormmesabzii",
+      "ingredients": [
+        "meat",
+        "sabzi",
+        "limoamani",
+        "lubia"
+      ],
+      "method": "vcvfg gfddcrwsrqt",
+      "cookingtime": "400"
+    }
+  ]
+}

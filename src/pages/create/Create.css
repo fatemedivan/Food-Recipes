@@ -1,0 +1,60 @@
+.create{
+     color: #b8b6b6;
+     max-width: 480px;
+     margin: 60px auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: center;
+     border: 1px solid #58249c;
+     padding: 2rem;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+}
+.create label span{
+    display: block;
+    margin: 30px 0 10px;
+}
+.create p {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.create button{
+    display: block;
+    width: 100px;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #58249c;
+    cursor: pointer;
+    margin: 30px auto;
+}
+.create input , .create textarea{
+    width: 250px;
+    padding: 10px;
+    border:1px solid #58249c;
+    outline: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: inherit;
+}
+.ingredients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ingredients button{
+    margin:  0 0 0 10px;
+}
