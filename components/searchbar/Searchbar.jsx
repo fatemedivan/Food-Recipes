@@ -9,7 +9,8 @@ export default function Searchbar() {
 
     const handlesubmit = (e) =>{
         e.preventDefault()
-        navigate(`/search?q=${term}`)
+        navigate(`/search?title=${term}`)
+        setTerm('')
     }
   return (
     <div className='searchbar'>
