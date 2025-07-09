@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import './Recipe.css'
+import { useTheme } from "../../context/ThemeContext";
 
 export default function Recipe() {
 
   const { id } = useParams();
+  const {mode} = useTheme()
   const[data , setData] = useState([])
 
   useEffect(() => {
@@ -18,7 +20,7 @@ export default function Recipe() {
   }, [])
   
   return (
-    <div className="recipe">
+    <div className={`recipe ${mode}`}>
       {data &&  
           <>
             <h2 className="page-title">{data.title}</h2>

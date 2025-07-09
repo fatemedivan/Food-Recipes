@@ -17,3 +17,11 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.mode-toggle{
+    margin-right: auto;
+}
+.mode-toggle svg{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

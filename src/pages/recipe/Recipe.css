@@ -15,7 +15,6 @@
 .recipe li {
     list-style: none;
     margin-right: 10px;
-    color: #777;
 }
 .recipe li::after{
     content: ',';
@@ -32,4 +31,10 @@
 }
 .recipe.light p, .recipe.light h2{
     color: #000;
+}
+.recipe.dark p, .recipe.dark li{
+    color: #777;
+}
+.recipe.dark h2{
+    color: #fff;
 }

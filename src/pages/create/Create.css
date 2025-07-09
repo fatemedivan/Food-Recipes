@@ -58,3 +58,6 @@
 .ingredients button{
     margin:  0 0 0 10px;
 }
+.create.light p, .create.light h2, .create.light span, .create.light input, .create.light textarea{
+     color: #000;
+}
