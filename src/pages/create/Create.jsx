@@ -24,7 +24,7 @@ export default function Create() {
     const id = Math.floor(Math.random() *100).toString()
 
     try {
-        const response = await fetch('http://localhost:3002/recipes', {
+        const response = await fetch('http://localhost:3000/recipes', {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify( {id ,title , ingredients , method , cookingtime })

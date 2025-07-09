@@ -9,7 +9,7 @@ export default function Recipe() {
 
   useEffect(() => {
     const fetchdata = async () => {
-      const res = await fetch(`http://localhost:3002/recipes/${id}`)
+      const res = await fetch(`http://localhost:3000/recipes/${id}`)
       const data = await res.json()
       setData(data)
     }
